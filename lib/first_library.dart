@@ -1,5 +1,11 @@
 library first_library;
 
+import 'dart:math' as math;
+
+part 'first_library_extension_1.dart';
+part 'first_library_extension_2.dart';
+part 'first_library_extension_3.dart';
+
 class A {
   final int _privateField = 5;
   void _privateMethod() {}
